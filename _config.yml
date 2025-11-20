@@ -1,0 +1,28 @@
+title: 顿雨桐 - 室内设计作品集
+description: 室内设计师个人作品集网站
+baseurl: ""
+url: "https://ivisdun.github.io"
+github_username: ivisdun
+
+# 构建设置
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 站点设置
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 作者信息
+author:
+  name: 顿雨桐
+  email: ivisdun@gmail.com
+  description: "室内与空间设计师"
+  
+# 导航菜单
+header_pages:
+  - about.md
+  - portfolio.md
+  - contact.md
